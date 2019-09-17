@@ -463,7 +463,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     
     let apiURL = "https://maps.googleapis.com/maps/api/place/"
-    let apiKey = "AIzaSyBCfTanCFVVh__myRA9mhs2Wo8g8RqAo-U"
+    let apiKey = "YOUR-API-KEY-HERE"
     
     func distanceBtwnPts(lat1: Double, lon1: Double, lat2: Double, lon2: Double) -> Double{
         let radius = 6371.0;
